@@ -1,0 +1,6 @@
+build:
+  cmds:
+    - pip install -r requirements.txt
+run:
+  cmd: python main.py
+  grace_period: 15m
