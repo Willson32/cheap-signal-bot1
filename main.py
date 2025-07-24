@@ -6,8 +6,7 @@ import pandas as pd
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime, timezone
 
-TELEGRAM_BOT_TOKEN = os.environ["8388245484:AAEOxz42dBgXDi8BekJSrQZkK63kzwPNCjM"]
-CHAT_ID = int(os.environ["7971223324"])
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 client = Client(api_key="", api_secret="")  # без ключей, только публичный доступ
 PRICE_LIMIT = 1.0
 
